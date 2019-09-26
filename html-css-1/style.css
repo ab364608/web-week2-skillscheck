@@ -1,0 +1,106 @@
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.access-bar {
+    width: 25%;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-between;
+    position: relative;
+    right: 5%;
+}
+
+.access-bar li {
+    list-style-type: none;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    width: 100%;
+    background: gray;
+}
+
+h1 {
+    position: relative;
+    left: 5%;
+    font-size: 1.9em;
+    color: whitesmoke;
+}
+
+div {
+    height: 25vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    color: rgb(236, 236, 106);
+    font-size: 3.2em;
+    font-weight: 600;
+}
+
+main {
+    height: 58vh;
+    width: 100%;
+
+}
+
+footer {
+    height: 90px;
+    background: rgb(24, 8, 70)
+}
+
+.green-squares {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+.green-squares li {
+    background: rgb(112, 236, 149);
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+.orange-rect li {
+    background: rgb(255, 199, 94);
+    height: 150px;
+    width: 350px;
+}
+
+.orange-rect {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    width: 55%;
+    position: relative;
+    left: 22.5vw;
+}
+
+.text-and-image {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+.i-love-coding {
+    font-size: .2em
+}
